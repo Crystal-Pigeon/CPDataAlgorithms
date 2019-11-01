@@ -17,6 +17,7 @@
 		DF2263082360672D004C724C /* CPQueueRingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2263072360672D004C724C /* CPQueueRingBuffer.swift */; };
 		DF22630A23606734004C724C /* CPRingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF22630923606734004C724C /* CPRingBuffer.swift */; };
 		DF22630D2360674C004C724C /* CPQueueStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF22630C2360674C004C724C /* CPQueueStack.swift */; };
+		DF79FAAC236C33EB000B28BD /* CPAVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79FAAB236C33EB000B28BD /* CPAVLTree.swift */; };
 		DFD9E1DC235F1F7D008ABE81 /* CP_Data_Algorithms.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD9E1DA235F1F7D008ABE81 /* CP_Data_Algorithms.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFD9E1F0235F20C0008ABE81 /* CPNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD9E1EF235F20C0008ABE81 /* CPNode.swift */; };
 		DFD9E1F2235F20EF008ABE81 /* CPLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD9E1F1235F20EF008ABE81 /* CPLinkedList.swift */; };
@@ -34,6 +35,7 @@
 		DF2263072360672D004C724C /* CPQueueRingBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPQueueRingBuffer.swift; sourceTree = "<group>"; };
 		DF22630923606734004C724C /* CPRingBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPRingBuffer.swift; sourceTree = "<group>"; };
 		DF22630C2360674C004C724C /* CPQueueStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPQueueStack.swift; sourceTree = "<group>"; };
+		DF79FAAB236C33EB000B28BD /* CPAVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPAVLTree.swift; sourceTree = "<group>"; };
 		DFD9E1D7235F1F7D008ABE81 /* CP_Data_Algorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CP_Data_Algorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD9E1DA235F1F7D008ABE81 /* CP_Data_Algorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CP_Data_Algorithms.h; sourceTree = "<group>"; };
 		DFD9E1DB235F1F7D008ABE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				DF1AE21123698E9D00482453 /* CPTreeNode.swift */,
 				DF1AE21823699C2500482453 /* CPBinaryNode.swift */,
 				DF1AE21B2369AD1200482453 /* CPBinarySearchTree.swift */,
+				DF79FAAB236C33EB000B28BD /* CPAVLTree.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			files = (
 				DF226300236066EB004C724C /* CPQueueArray.swift in Sources */,
 				DF2262FD236066D1004C724C /* CPQueue.swift in Sources */,
+				DF79FAAC236C33EB000B28BD /* CPAVLTree.swift in Sources */,
 				DF2263052360670B004C724C /* DoublyLinkedList.swift in Sources */,
 				DFD9E1F0235F20C0008ABE81 /* CPNode.swift in Sources */,
 				DF2263082360672D004C724C /* CPQueueRingBuffer.swift in Sources */,

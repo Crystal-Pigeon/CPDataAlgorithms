@@ -11,6 +11,7 @@ public class CPBinaryNode<T> {
     public var value: T
     public var leftChild: CPBinaryNode?
     public var rightChild: CPBinaryNode?
+    public var height = 0
     var min: CPBinaryNode {
         return leftChild?.min ?? self
     }
@@ -51,6 +52,17 @@ extension CPBinaryNode: CustomStringConvertible {
             + root + "\(node.value)\n"
             + diagram(for: node.leftChild,
                       bottom + "│ ", bottom + "└──", bottom + " ")
+    }
+}
+extension CPBinaryNode {
+    public var balanceFactor: Int {
+        return leftHeight - rightHeight
+    }
+    public var leftHeight: Int {
+        return leftChild?.height ?? -1
+    }
+    public var rightHeight: Int {
+        return rightChild?.height ?? -1
     }
 }
 
