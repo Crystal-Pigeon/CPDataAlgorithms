@@ -10,6 +10,8 @@
 		DF1AE21223698E9D00482453 /* CPTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1AE21123698E9D00482453 /* CPTreeNode.swift */; };
 		DF1AE21923699C2500482453 /* CPBinaryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1AE21823699C2500482453 /* CPBinaryNode.swift */; };
 		DF1AE21C2369AD1200482453 /* CPBinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1AE21B2369AD1200482453 /* CPBinarySearchTree.swift */; };
+		DF20B3D92372CA960035027E /* CPTrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF20B3D82372CA960035027E /* CPTrieNode.swift */; };
+		DF20B3DB2372CAAE0035027E /* CPTrie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF20B3DA2372CAAE0035027E /* CPTrie.swift */; };
 		DF2262FD236066D1004C724C /* CPQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2262FC236066D1004C724C /* CPQueue.swift */; };
 		DF226300236066EB004C724C /* CPQueueArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2262FF236066EB004C724C /* CPQueueArray.swift */; };
 		DF22630323606703004C724C /* CPQueueLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF22630223606703004C724C /* CPQueueLinkedList.swift */; };
@@ -28,6 +30,8 @@
 		DF1AE21123698E9D00482453 /* CPTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPTreeNode.swift; sourceTree = "<group>"; };
 		DF1AE21823699C2500482453 /* CPBinaryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPBinaryNode.swift; sourceTree = "<group>"; };
 		DF1AE21B2369AD1200482453 /* CPBinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPBinarySearchTree.swift; sourceTree = "<group>"; };
+		DF20B3D82372CA960035027E /* CPTrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPTrieNode.swift; sourceTree = "<group>"; };
+		DF20B3DA2372CAAE0035027E /* CPTrie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPTrie.swift; sourceTree = "<group>"; };
 		DF2262FC236066D1004C724C /* CPQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPQueue.swift; sourceTree = "<group>"; };
 		DF2262FF236066EB004C724C /* CPQueueArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPQueueArray.swift; sourceTree = "<group>"; };
 		DF22630223606703004C724C /* CPQueueLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPQueueLinkedList.swift; sourceTree = "<group>"; };
@@ -58,12 +62,22 @@
 		DF1AE21023698E8600482453 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				DF20B3D72372CA840035027E /* Trie */,
 				DF1AE21123698E9D00482453 /* CPTreeNode.swift */,
 				DF1AE21823699C2500482453 /* CPBinaryNode.swift */,
 				DF1AE21B2369AD1200482453 /* CPBinarySearchTree.swift */,
 				DF79FAAB236C33EB000B28BD /* CPAVLTree.swift */,
 			);
 			path = Tree;
+			sourceTree = "<group>";
+		};
+		DF20B3D72372CA840035027E /* Trie */ = {
+			isa = PBXGroup;
+			children = (
+				DF20B3D82372CA960035027E /* CPTrieNode.swift */,
+				DF20B3DA2372CAAE0035027E /* CPTrie.swift */,
+			);
+			path = Trie;
 			sourceTree = "<group>";
 		};
 		DF2262F923606699004C724C /* Linked list */ = {
@@ -247,9 +261,11 @@
 				DF22630A23606734004C724C /* CPRingBuffer.swift in Sources */,
 				DF22630323606703004C724C /* CPQueueLinkedList.swift in Sources */,
 				DFD9E1F5235F2B5C008ABE81 /* CPStack.swift in Sources */,
+				DF20B3D92372CA960035027E /* CPTrieNode.swift in Sources */,
 				DFD9E1F2235F20EF008ABE81 /* CPLinkedList.swift in Sources */,
 				DF22630D2360674C004C724C /* CPQueueStack.swift in Sources */,
 				DF1AE21C2369AD1200482453 /* CPBinarySearchTree.swift in Sources */,
+				DF20B3DB2372CAAE0035027E /* CPTrie.swift in Sources */,
 				DF1AE21223698E9D00482453 /* CPTreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
